@@ -1,5 +1,4 @@
 {
-  "restaurant": {
     "klass": {
       "monday": "mm",
       "tuesday": "tm",
@@ -7,5 +6,4 @@
       "thursday": "tm",
       "friday": "fm"
     }
-  }
 }

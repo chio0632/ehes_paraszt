@@ -1,9 +1,33 @@
 {
     "klass": {
-      "monday": "mm",
-      "tuesday": "tm",
-      "wednesday": "wm",
-      "thursday": "tm",
-      "friday": "fm"
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
+    },
+    
+    "malibu": {
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
+    },
+    
+    "griff": {
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
+    },
+    
+    "golya_csarda": {
+        "monday": "",
+        "tuesday": "",
+        "wednesday": "",
+        "thursday": "",
+        "friday": ""
     }
 }

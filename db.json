@@ -1,4 +1,11 @@
 {
-  "firstName": "a",
-  "lastName": "b"
+  "restaurant": {
+    "klass": {
+      "monday": "mm",
+      "tuesday": "tm",
+      "wednesday": "wm",
+      "thursday": "tm",
+      "friday": "fm"
+    }
+  }
 }

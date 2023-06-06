@@ -1,10 +1,10 @@
 {
     "klass": {
-        "monday": "",
-        "tuesday": "",
-        "wednesday": "",
-        "thursday": "",
-        "friday": ""
+        "monday": "m",
+        "tuesday": "t",
+        "wednesday": "w",
+        "thursday": "t",
+        "friday": "f"
     },
     
     "malibu": {

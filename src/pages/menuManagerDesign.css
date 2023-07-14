@@ -1,0 +1,110 @@
+.menuEditor {
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.menuEditor button {
+    margin-top: 1rem;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.menuManager {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid blanchedalmond;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav {
+    font-family: sans-serif !important;
+    
+}
+
+.nav-tabs {
+   border-color: blanchedalmond !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+    border-color: blanchedalmond !important;
+}
+
+.nav-link:focus {
+    color: black !important;
+    border-color: blanchedalmond !important;
+    background-color: blanchedalmond !important;
+}
+
+.menuManagerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.btn-outline-primary {
+    border-color: blanchedalmond !important;
+    color: black !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: blanchedalmond !important;
+}
+
+.btn-outline-primary:focus {
+    background-color: blanchedalmond !important;
+}
+
+.showWeeklyMenu {
+    display: grid;
+    place-items: center;
+    
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingLogo {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

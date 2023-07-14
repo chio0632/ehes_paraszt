@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+.site {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  margin:  0 auto;
+  padding-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title-logo {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.title-logo img {
+
+  width: 200px;
+  height:  200px;
+}
+
+.title-text {
+  width: 400px;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  border-top: 2px solid blanchedalmond;
+  border-bottom: 2px solid blanchedalmond;
+  cursor: pointer;
+}
+
+ .title-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.title-text a:hover {
+  color: black;
+}
+
+.title-text h2 {
+  font-size: 40px;
+  font-family: 'Playfair Display';
+}
+
+ .restaurants {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top:  20px;
+}
+
+.restaurants ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style:  none;
+}
+
+.restaurants ul li p {
+  font-size: 1.5rem;
+  font-family: 'Sono';
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+    
+}
+
+.restaurants ul .textContainer {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurants ul .lineContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurants ul li p:hover {
+  color: blanchedalmond;
+  transition-duration: 0.2s;
+}
+
+.line {
+  background-color: blanchedalmond;
+  width: 1px;
+  height: 60px;
+  padding:  0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.daily {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blanchedalmond;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.daily-text {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:  2px solid blanchedalmond;
+  background-color: blanchedalmond;
+  color: black;
+  border-radius: 20px;
+}
+
+.daily-text h2, .phone h2, .weekly-text h2, .day h2, .restaurant-name h2{
+  font-family: 'Alkatra';
+  font-weight: 400;
+  font-size: 20px;
+}
+.menu-category, .menu-description{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu-description {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 2px;
+  font-family: 'Poppins';
+}
+
+.menu-category p {
+  font-size: 20px;
+  font-family: 'Alkatra';
+}
+
+.weekly-text {
+  height: 60px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid blanchedalmond;
+  font-size: 20px;
+  background-color: blanchedalmond;
+  color: black;
+  border-radius: 20px;
+}
+
+.weekly {
+  width: 1000px;
+  margin: 0 auto;
+  border:  2px solid blanchedalmond;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  height: 60px;
+}
+
+.about ul li a {
+  text-decoration: none;
+  font-family: 'Alkatra';
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.about ul li {
+  width: 250px;
+  text-align: center;
+  border:  2px solid blanchedalmond;
+  border-radius: 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about ul li div {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.about ul li:hover{
+  background-color: darksalmon;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  color: blanchedalmond;
+}
+
+.about ul li:hover .about-text {
+  color: blanchedalmond;
+}
+
+.about ul li .about-phone .about-text:hover {
+  color: white;
+}
+
+.about ul li .about-facebook .about-text:hover {
+  color: white;
+}
+
+.about ul li .about-location .about-text:hover {
+  color: white;
+}
+
+
+.restaurant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.restaurant-name {
+  width: 1000px;
+  height:  60px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid blanchedalmond;
+  border-bottom: 1px solid blanchedalmond;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  padding: 20px;
+  gap: 10px;
+}
+
+.day {
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.about ul li img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.about-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-phone-logo, .about-facebook-logo, .about-location-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-phone, .about-facebook, .about-location {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.daily h2 {
+  font-family: 'Alkatra';
+  margin: 1rem !important;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .restaurants {
+    width: 100%;
+  }
+
+	.restaurants ul {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.restaurants ul .textContainer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.restaurants ul .lineContainer {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+	.line {
+    height: 1px;
+    width: 40px;
+  }
+
+	.restaurant {
+    width: 100%;
+    overflow: hidden;
+  }
+
+	.about {
+    width: 100%;
+    height: 200px;
+  }
+
+	.about ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+	.main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+	.title, .title-text, .daily, .daily-text, .weekly, .weekly-text, .menu {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  .restaurants {
+    width: 100%;
+  }
+
+	.restaurants ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+	.restaurants ul .textContainer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.restaurants ul .lineContainer {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+	.line {
+    height: 1px;
+    width: 40px;
+  }
+
+	.restaurant {
+    width: 100%;
+    overflow: hidden;
+  }
+
+	.about {
+    width: 100%;
+    height: 200px;
+  }
+
+	.about ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+	.main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+	.title, .title-text, .daily, .daily-text, .weekly, .weekly-text, .menu {
+    width: 100%;
+  }
+
+.title-text h2 {
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .restaurants {
+    width: 100%;
+  }
+
+	.restaurants ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+	.restaurants ul .textContainer {
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.restaurants ul .lineContainer {
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+	.line {
+    height: 1px;
+    width: 40px;
+  }
+
+	.restaurant {
+    width: 100%;
+    overflow: hidden;
+  }
+
+	.about {
+    width: 100%;
+    height: 200px;
+  }
+
+	.about ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+	.main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+	.title, .title-text, .daily, .daily-text, .weekly, .weekly-text, .menu {
+    width: 100%;
+  }
+
+}

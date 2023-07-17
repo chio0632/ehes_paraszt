@@ -15,7 +15,7 @@ function KlassRestaurantName() {
 function KlassRestaurantAboutPhone() {
     return (
         <div className="about-phone">
-            <a href={restaurantInfo.klass.phone1_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.klass.phone1}</a>
+            <a href={restaurantInfo.klass.phone1_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.klass.phone1}</a>
         </div>
         ) 
 }
@@ -23,7 +23,7 @@ function KlassRestaurantAboutPhone() {
 function KlassRestaurantAboutFacebook() {
     return(
         <div className="about-facebook">
-            <a href={restaurantInfo.klass.fb_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.klass.name}</a>
+            <a href={restaurantInfo.klass.fb_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.klass.name}</a>
         </div>
         )
 }
@@ -31,7 +31,7 @@ function KlassRestaurantAboutFacebook() {
 function KlassRestaurantAboutLocation() {
     return(
         <div className="about-location">
-            <a href={restaurantInfo.klass.location} className="about-text" target="_blank"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.klass.address}</a>
+            <a href={restaurantInfo.klass.location} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.klass.address}</a>
         </div>
         )
 }
@@ -76,8 +76,8 @@ function MalibuRestaurantName() {
 function MalibuRestaurantAboutPhone() {
     return (
         	<div className="about-phone">
-                <a href={restaurantInfo.malibu.phone1_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.malibu.phone1}</a>
-                <a href={restaurantInfo.malibu.phone2_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.malibu.phone2}</a>
+                <a href={restaurantInfo.malibu.phone1_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.malibu.phone1}</a>
+                <a href={restaurantInfo.malibu.phone2_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.malibu.phone2}</a>
             </div>
         ) 
 }
@@ -85,7 +85,7 @@ function MalibuRestaurantAboutPhone() {
 function MalibuRestaurantAboutFacebook() {
     return(
         <div className="about-facebook">
-            <a href={restaurantInfo.malibu.fb_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.malibu.name}</a>
+            <a href={restaurantInfo.malibu.fb_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.malibu.name}</a>
         </div>
         )
 }
@@ -93,7 +93,7 @@ function MalibuRestaurantAboutFacebook() {
 function MalibuRestaurantAboutLocation() {
     return(
         <div className="about-location">
-            <a href={restaurantInfo.malibu.location} className="about-text" target="_blank"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.malibu.address}</a>
+            <a href={restaurantInfo.malibu.location} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.malibu.address}</a>
         </div>
         )
 }
@@ -138,8 +138,8 @@ function GriffRestaurantName() {
 function GriffRestaurantAboutPhone() {
     return (
         <div className="about-phone">
-            <a href={restaurantInfo.griff.phone1_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.griff.phone1}</a>
-            <a href={restaurantInfo.griff.phone2_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.griff.phone2}</a>
+            <a href={restaurantInfo.griff.phone1_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.griff.phone1}</a>
+            <a href={restaurantInfo.griff.phone2_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.griff.phone2}</a>
         </div>
         ) 
 }
@@ -147,7 +147,7 @@ function GriffRestaurantAboutPhone() {
 function GriffRestaurantAboutFacebook() {
     return(
         <div className="about-facebook">
-            <a href={restaurantInfo.griff.fb_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.griff.name}</a>
+            <a href={restaurantInfo.griff.fb_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.griff.name}</a>
         </div>
         )
 }
@@ -155,7 +155,7 @@ function GriffRestaurantAboutFacebook() {
 function GriffRestaurantAboutLocation() {
     return(
         <div className="about-location">
-            <a href={restaurantInfo.griff.location} className="about-text" target="_blank"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.griff.address}</a>
+            <a href={restaurantInfo.griff.location} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.griff.address}</a>
         </div>
         )
 }
@@ -200,7 +200,7 @@ function GolyaCsardaRestaurantName() {
 function GolyaCsardaRestaurantAboutPhone() {
     return (
         <div className="about-phone">
-            <a href={restaurantInfo.golya_csarda.phone1_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.golya_csarda.phone1}</a>
+            <a href={restaurantInfo.golya_csarda.phone1_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faPhone} />{restaurantInfo.golya_csarda.phone1}</a>
         </div>
         ) 
 }
@@ -208,7 +208,7 @@ function GolyaCsardaRestaurantAboutPhone() {
 function GolyaCsardaRestaurantAboutFacebook() {
     return(
         <div className="about-facebook">
-            <a href={restaurantInfo.golya_csarda.fb_link} className="about-text" target="_blank"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.golya_csarda.name}</a>
+            <a href={restaurantInfo.golya_csarda.fb_link} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faHouse} />{restaurantInfo.golya_csarda.name}</a>
         </div>
         )
 }
@@ -216,7 +216,7 @@ function GolyaCsardaRestaurantAboutFacebook() {
 function GolyaCsardaRestaurantAboutLocation() {
     return(
         <div className="about-location">
-            <a href={restaurantInfo.golya_csarda.location} className="about-text" target="_blank"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.golya_csarda.address}</a>
+            <a href={restaurantInfo.golya_csarda.location} className="about-text" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLocationDot} />{restaurantInfo.golya_csarda.address}</a>
         </div>
         )
 }

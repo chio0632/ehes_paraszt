@@ -98,7 +98,7 @@ export default function GolyaCsardaMenuManager() {
             domain="dev-214vs7fyuxindw0r.us.auth0.com"
             clientId="v6iTmzdytyrydskr0b11pXO4ItTWONoq"
             authorizationParams={{
-            redirect_uri: "http://localhost:3000/golyacsardamenumanager"
+            redirect_uri: "https://ehesparaszt.netlify.app/klassmenumanager"
         }}
             >
             <GolyaCsardaMenuEditor />

@@ -98,7 +98,7 @@ export default function MalibuMenuManager() {
             domain="dev-214vs7fyuxindw0r.us.auth0.com"
             clientId="v6iTmzdytyrydskr0b11pXO4ItTWONoq"
             authorizationParams={{
-            redirect_uri: "http://localhost:3000/malibumenumanager"
+            redirect_uri: "https://ehesparaszt.netlify.app/malibumenumanager"
         }}
             >
             <MalibuMenuEditor />

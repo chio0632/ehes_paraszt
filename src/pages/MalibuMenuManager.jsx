@@ -61,7 +61,7 @@ function MalibuMenuEditor() {
         <div className="header">
             <Profile/>
             <div className="logout">
-                <LogoutButton site="http://localhost:3000/malibumenumanager"/>
+                <LogoutButton site="https://ehesparaszt.netlify.app/malibumenumanager"/>
             </div>
         </div>
 

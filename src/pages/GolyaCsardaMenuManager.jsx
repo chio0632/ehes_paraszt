@@ -61,7 +61,7 @@ function GolyaCsardaMenuEditor() {
         <div className="header">
             <Profile/>
             <div className="logout">
-                <LogoutButton site="http://localhost:3000/golyacsardamenumanager"/>
+                <LogoutButton site="https://ehesparaszt.netlify.app/golyacsardamenumanager"/>
             </div>
         </div>
 

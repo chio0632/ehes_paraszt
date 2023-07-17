@@ -61,7 +61,7 @@ function KlassMenuEditor() {
         <div className="header">
             <Profile/>
             <div className="logout">
-                <LogoutButton site="http://localhost:3000/klassmenumanager"/>
+                <LogoutButton site="https://ehesparaszt.netlify.app/klassmenumanager"/>
             </div>
         </div>
         
